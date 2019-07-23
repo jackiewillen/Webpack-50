@@ -1,0 +1,3 @@
+目标是能够在bundle.js中搜索到background-color: pink;也就是css内容的确是被打包到bundle.js中了。
+
+但是要注意到css被打包到bundle.js中是不能在页面上生效的，因为还需要使用style-loader这个loader把其中的css内容提取出来，插入到html文件中去才可以生效。style-loader可以在另一个文件夹中查看如何使用。
