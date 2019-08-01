@@ -1,0 +1,19 @@
+{
+  "name": "bable-loader-example",
+  "version": "1.0.0",
+  "description": "bable-loader的使用联系",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "jackieyin (殷荣桧)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}

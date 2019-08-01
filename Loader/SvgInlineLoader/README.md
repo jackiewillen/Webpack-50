@@ -1,0 +1,1 @@
+1.通过svginlineloader加载一个svg图片，这样的好处是比raw-loader加载可以剔除掉其中无用的代码。
