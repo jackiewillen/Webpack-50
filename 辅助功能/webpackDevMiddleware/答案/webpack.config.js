@@ -13,7 +13,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management'
+      title: 'Output Management',
+      filename:'index.html',
+      template: 'index.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Output Management',
+      filename:'history.html',
+      template: 'history.html',
     }),
     new webpack.HotModuleReplacementPlugin()
   ],

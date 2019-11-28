@@ -1,3 +1,8 @@
+需要实现：
+一、对多页面访问的实现
+1.通过http://localhost:3000/index.html 实现首页的访问
+2.通过http://localhost:3000/history.html 实现对历史页面的访问
+二、
 npm run build编译完毕后自动启动网站在localhost:3000端口。使用express搭建能够在修改js代码后，自动热更新网页。全程无需手动刷新。
 
 解决方案来源：

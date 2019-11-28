@@ -19,6 +19,7 @@ app.use(webpackDevMiddleware(compiler, {
   publicPath: config.output.publicPath,
 }));
 
+app.use('/', express.static('./dist'));// 创建了虚拟路径，用/访问的，都访问static下的文件
 app.use(hotMiddleware);
 
 app.listen(3000, function () {
